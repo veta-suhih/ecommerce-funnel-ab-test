@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Данные
+data/
+data/raw/
+data/processed/
+data/raw/*.csv
+data/raw/*.parquet
+data/raw/*.success
+data/processed/*.csv
+data/processed/*.parquet
+data/processed/*.success
+
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!images/.gitkeep
+
+# ОС
+.DS_Store
+Thumbs.db
