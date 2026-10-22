@@ -11,3 +11,12 @@ statsmodels>=0.14.0
 
 # Для работы с большими данными
 pyarrow>=15.0.0
+
+# Базы данных
+sqlalchemy>=2.0
+psycopg2-binary>=2.9
+python-dotenv>=1.0
+
+# Визуализация воронки
+plotly>=5.20
+kaleido>=0.2.1

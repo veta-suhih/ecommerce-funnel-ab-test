@@ -1,27 +1,47 @@
 # Python
 __pycache__/
 *.py[cod]
+*$py.class
 .venv/
 venv/
+env/
+*.egg-info/
+.pytest_cache/
 
 # Jupyter
 .ipynb_checkpoints/
 
+# Переменные окружения
+.env
+.env.local
+.env.*.local
+
 # Данные
 data/
-data/raw/
-data/processed/
-data/raw/*.csv
-data/raw/*.parquet
-data/raw/*.success
-data/processed/*.csv
-data/processed/*.parquet
-data/processed/*.success
 
-!data/raw/.gitkeep
-!data/processed/.gitkeep
-!images/.gitkeep
+# Служебные маркеры загрузки
+*.success
+
+# Модели и артефакты
+models/
+*.pkl
+*.joblib
+
+# Логи
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
 
 # ОС
 .DS_Store
 Thumbs.db
+desktop.ini
+
+# Временные файлы
+*.tmp
+*.bak
+~$*
